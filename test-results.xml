@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.006" tests="6" failures="5">
-  <testsuite name="Root Suite" timestamp="2024-10-21T14:39:05" tests="0" time="0.000" failures="0">
+<testsuites name="Mocha Tests" time="0.005" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-10-21T15:07:55" tests="0" time="0.000" failures="0">
   </testsuite>
-  <testsuite name="Password Generator Tests" timestamp="2024-10-21T14:39:05" tests="6" file="D:\phyton\web\tes prak\web-technology-mid-test-RafyFirdaus\test\test.js" time="0.005" failures="5">
-    <testcase name="Password Generator Tests should generate a password of the specified length" time="0.000" classname="should generate a password of the specified length">
-      <failure message="document is not defined" type="ReferenceError"><![CDATA[ReferenceError: document is not defined
-    at generatePassword (/script.js:22:9)
-    at Context.<anonymous> (test\/test.js:21:26)
-    at processImmediate (node:internal/timers:483:21)]]></failure>
+  <testsuite name="Password Generator Tests" timestamp="2024-10-21T15:07:55" tests="6" file="D:\phyton\web\tes prak\web-technology-mid-test-RafyFirdaus\test\test.js" time="0.004" failures="0">
+    <testcase name="Password Generator Tests should generate a password of the specified length" time="0.001" classname="should generate a password of the specified length">
     </testcase>
     <testcase name="Password Generator Tests should contain uppercase letters if selected" time="0.000" classname="should contain uppercase letters if selected">
-      <failure message="document is not defined" type="ReferenceError"><![CDATA[ReferenceError: document is not defined
-    at generatePassword (/script.js:22:9)
-    at Context.<anonymous> (test\/test.js:31:26)
-    at processImmediate (node:internal/timers:483:21)]]></failure>
     </testcase>
     <testcase name="Password Generator Tests should contain lowercase letters if selected" time="0.000" classname="should contain lowercase letters if selected">
-      <failure message="document is not defined" type="ReferenceError"><![CDATA[ReferenceError: document is not defined
-    at generatePassword (/script.js:22:9)
-    at Context.<anonymous> (test\/test.js:41:26)
-    at processImmediate (node:internal/timers:483:21)]]></failure>
     </testcase>
     <testcase name="Password Generator Tests should contain numbers if selected" time="0.000" classname="should contain numbers if selected">
-      <failure message="document is not defined" type="ReferenceError"><![CDATA[ReferenceError: document is not defined
-    at generatePassword (/script.js:22:9)
-    at Context.<anonymous> (test\/test.js:51:26)
-    at processImmediate (node:internal/timers:483:21)]]></failure>
     </testcase>
     <testcase name="Password Generator Tests should contain special characters if selected" time="0.000" classname="should contain special characters if selected">
-      <failure message="document is not defined" type="ReferenceError"><![CDATA[ReferenceError: document is not defined
-    at generatePassword (/script.js:22:9)
-    at Context.<anonymous> (test\/test.js:61:26)
-    at processImmediate (node:internal/timers:483:21)]]></failure>
     </testcase>
     <testcase name="Password Generator Tests should throw an error if no character type is selected" time="0.001" classname="should throw an error if no character type is selected">
     </testcase>

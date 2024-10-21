@@ -11,8 +11,7 @@ export const generatePassword = (length, options) => {
     if (options.includeSpecialChars) characterSet += specialChars;
 
     if (characterSet === '') {
-        alert('Ga ada yang di checklist kocak');
-        return '';
+        throw new Error('At least one character type must be selected.');
     }
 
     let password = '';
@@ -23,4 +22,3 @@ export const generatePassword = (length, options) => {
 
     return password;
 };
-
